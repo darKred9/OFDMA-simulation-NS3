@@ -1,6 +1,6 @@
 # OFDMA-simulation-NS3
 
-Course Project for CMU 18-452 / 18-750 Wireless Networks and Applications
+Course Project of CMU 18-452 / 18-750 Wireless Networks and Applications
 
 These are only the core files of the projects.
 
