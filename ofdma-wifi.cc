@@ -45,7 +45,7 @@
 #include <memory>
 #include <numeric>
 
-// ./ns3 run ofdm-wifi2.cc
+// ./ns3 run ofdma-wifi.cc
 
 # define PKT_NUM 1500
 # define PKT_INTERVAL 0.001
@@ -113,7 +113,6 @@ void writeResult() {
 
   std::ofstream outputFile("/home/wyc/tarballs/ns-allinone-3.36/ns-3.36/scratch/output.txt", std::ios::trunc);
 
-  // 检查文件是否成功打开
   if (outputFile.is_open()) {
 
     // for (size_t i = 0; i < fctValues.size(); ++i) {
@@ -130,7 +129,7 @@ void writeResult() {
         }
     }
 
-    outputFile.close();  // 关闭文件
+    outputFile.close(); 
     std::cout << "done: output.txt" << std::endl;
   } else {
       std::cout << "error: output.txt" << std::endl;
